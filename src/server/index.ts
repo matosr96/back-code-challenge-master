@@ -1,5 +1,4 @@
 import fastifyCors from "@fastify/cors";
-import fastifySwagger from "fastify-swagger";
 import * as dotenv from "dotenv";
 dotenv.config();
 
