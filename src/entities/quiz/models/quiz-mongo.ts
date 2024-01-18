@@ -11,6 +11,7 @@ export const SchemaQuizMongo = new Schema<Quiz>(
       default: () => crypto.randomUUID(),
     },
     name: { type: String, required: true },
+    slug: { type: String, required: true },
     response_code: { type: Number },
     results: [
       {
